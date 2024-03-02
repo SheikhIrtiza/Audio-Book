@@ -21,7 +21,7 @@ speaker = pyttsx3.init()
 for num in range(7, pages):
    
    # Get the page object for the current page number
-   page = pdfReader.getPage(num)
+   page = pdfReader.getPage(7)
 
    # Extract the text from the current page object
    text = page.extractText()
